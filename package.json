@@ -1,0 +1,29 @@
+{
+  "name": "passport-guide",
+  "version": "1.0.0",
+  "description": "*Note: this guide assumes you already have a basic express web server with body-parser set up*",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylequamme/passport-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylequamme/passport-guide/issues"
+  },
+  "homepage": "https://github.com/kylequamme/passport-guide#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "mongoose": "^4.5.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
